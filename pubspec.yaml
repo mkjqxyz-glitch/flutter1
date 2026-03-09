@@ -1,0 +1,53 @@
+name: it_career_app
+description: An educational Jordan Tourism app for Muhammad.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # المكتبات الأساسية
+  intl: ^0.20.2
+  provider: ^6.1.2
+  shared_preferences: ^2.3.5
+  video_player: ^2.9.2
+  just_audio: ^0.10.5
+  youtube_player_flutter: ^9.1.1
+  share_plus: ^12.0.1
+  webview_flutter: ^4.10.0
+  liquid_glass_renderer: ^0.2.0-dev.4
+  confetti: ^0.8.0
+  
+  # مكتبات تجربة المستخدم
+  flutter_rating_bar: ^4.0.1
+  google_fonts: ^8.0.2
+  lottie: ^3.1.2
+  font_awesome_flutter: ^10.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.jpg
+    - assets/icons/
+    - assets/sounds/clap_sound.mp3
+    - assets/videos/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.jpg"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon.jpg"
