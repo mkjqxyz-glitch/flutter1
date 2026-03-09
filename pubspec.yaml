@@ -41,7 +41,7 @@ flutter:
   assets:
     - assets/icon.jpg
     - assets/icons/
-    - assets/sounds/clap_sound.mp3
+    - assets/sounds/
     - assets/videos/
 
 flutter_launcher_icons:
